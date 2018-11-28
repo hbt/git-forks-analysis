@@ -48,6 +48,8 @@ function quickStats(string $user, string $repo)
 
     $cmd = sprintf('bash -l -c "rvm use 2.1.3 && ruby --version && cd /out/%s && /deps/git_stats/bin/git_stats generate"', $repo);
     shell($cmd);
+    
+    echo "View output in " . "/out/$repo.html AND in /out/$repo/quick_stats/index.html";
 }
 
 
