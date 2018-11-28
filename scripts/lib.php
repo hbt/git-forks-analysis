@@ -43,7 +43,7 @@ function getAllDirectForks(string $user, string $repo)
  */
 function quickStats(string $user, string $repo)
 {
-    $cmd = "python /git-forks-analysis-src/deps/gitinspector/gitinspector.py --grading=true --format=html  /out/$repo >  /out/$repo.html";
+    $cmd = "python /deps/gitinspector/gitinspector.py --grading=true --format=html  /out/$repo >  /out/$repo.html";
     shell($cmd);
 
     $cmd = sprintf('bash -l -c "rvm use 2.1.3 && ruby --version && cd /out/%s && /deps/git_stats/bin/git_stats generate"', $repo);

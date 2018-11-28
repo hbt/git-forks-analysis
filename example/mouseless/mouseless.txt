@@ -1,0 +1,387 @@
+                                                                                Fetching and calculating primary statistics (1 of 2): 16%                                                                                Fetching and calculating primary statistics (1 of 2): 33%                                                                                Fetching and calculating primary statistics (1 of 2): 50%                                                                                Fetching and calculating primary statistics (1 of 2): 67%                                                                                Fetching and calculating primary statistics (1 of 2): 83%                                                                                Checking how many rows belong to each author (2 of 2): 7%                                                                                Checking how many rows belong to each author (2 of 2): 7%                                                                                Checking how many rows belong to each author (2 of 2): 8%                                                                                Checking how many rows belong to each author (2 of 2): 9%                                                                                Checking how many rows belong to each author (2 of 2): 10%                                                                                Checking how many rows belong to each author (2 of 2): 11%                                                                                Checking how many rows belong to each author (2 of 2): 12%                                                                                Checking how many rows belong to each author (2 of 2): 13%                                                                                Checking how many rows belong to each author (2 of 2): 14%                                                                                Checking how many rows belong to each author (2 of 2): 15%                                                                                Checking how many rows belong to each author (2 of 2): 15%                                                                                Checking how many rows belong to each author (2 of 2): 16%                                                                                Checking how many rows belong to each author (2 of 2): 17%                                                                                Checking how many rows belong to each author (2 of 2): 18%                                                                                Checking how many rows belong to each author (2 of 2): 19%                                                                                Checking how many rows belong to each author (2 of 2): 20%                                                                                Checking how many rows belong to each author (2 of 2): 23%                                                                                Checking how many rows belong to each author (2 of 2): 23%                                                                                Checking how many rows belong to each author (2 of 2): 24%                                                                                Checking how many rows belong to each author (2 of 2): 25%                                                                                Checking how many rows belong to each author (2 of 2): 26%                                                                                Checking how many rows belong to each author (2 of 2): 27%                                                                                Checking how many rows belong to each author (2 of 2): 28%                                                                                Checking how many rows belong to each author (2 of 2): 29%                                                                                Checking how many rows belong to each author (2 of 2): 30%                                                                                Checking how many rows belong to each author (2 of 2): 30%                                                                                Checking how many rows belong to each author (2 of 2): 31%                                                                                Checking how many rows belong to each author (2 of 2): 32%                                                                                Checking how many rows belong to each author (2 of 2): 33%                                                                                Checking how many rows belong to each author (2 of 2): 35%                                                                                Checking how many rows belong to each author (2 of 2): 36%                                                                                Checking how many rows belong to each author (2 of 2): 37%                                                                                Checking how many rows belong to each author (2 of 2): 38%                                                                                Checking how many rows belong to each author (2 of 2): 38%                                                                                Checking how many rows belong to each author (2 of 2): 39%                                                                                Checking how many rows belong to each author (2 of 2): 40%                                                                                Checking how many rows belong to each author (2 of 2): 41%                                                                                Checking how many rows belong to each author (2 of 2): 42%                                                                                Checking how many rows belong to each author (2 of 2): 43%                                                                                Checking how many rows belong to each author (2 of 2): 45%                                                                                Checking how many rows belong to each author (2 of 2): 46%                                                                                Checking how many rows belong to each author (2 of 2): 76%                                                                                Checking how many rows belong to each author (2 of 2): 77%                                                                                Checking how many rows belong to each author (2 of 2): 78%                                                                                Checking how many rows belong to each author (2 of 2): 84%                                                                                Checking how many rows belong to each author (2 of 2): 85%                                                                                Checking how many rows belong to each author (2 of 2): 88%                                                                                Checking how many rows belong to each author (2 of 2): 91%                                                                                Checking how many rows belong to each author (2 of 2): 92%                                                                                Checking how many rows belong to each author (2 of 2): 94%                                                                                Checking how many rows belong to each author (2 of 2): 95%                                                                                Checking how many rows belong to each author (2 of 2): 96%                                                                                Checking how many rows belong to each author (2 of 2): 97%                                                                                Checking how many rows belong to each author (2 of 2): 99%Statistical information for the repository 'mouseless' was gathered on
+2018/11/28.
+The following historical commit information, by author, was found:
+
+[1mAuthor                     Commits    Insertions      Deletions    % of changes[0;0m
+1995eaton                     2305        153934         108740           76.32
+Asa Jay                          3             6              6            0.00
+Christoph Hermann                1           242            139            0.11
+D Davis                          6           204              0            0.06
+David McFarland                  5           115             45            0.05
+Devin Lehmacher                  6             6             48            0.02
+Dylan Davis                      6           204              0            0.06
+Florian Bruhin                  10            15             15            0.01
+Jake Eaton                     125         12698          11683            7.08
+Jayphen                          4            24              0            0.01
+Josef Eisl                       5            45             25            0.02
+Lauri Niskanen                   5             5             10            0.00
+Marcus                           4             4              4            0.00
+Nikos Filippakis                 5           155             95            0.07
+Patryk Stępień                  10            10              5            0.00
+Ross Hadden                     12            36             24            0.02
+Sylvain Soliman                  2            70             22            0.03
+T.S. Foster                     16           140             40            0.05
+brook hong                       5            45             15            0.02
+gogu                             5           130            130            0.08
+h43z                             5             5              5            0.00
+hbt                            406         16525           1905            5.36
+itchyny                         39           621            750            0.40
+metasong                       150         22332          12468           10.11
+mrmr1993                         4            52             52            0.03
+paulhybryant                     4             8              8            0.00
+pcworld                          5             5             20            0.01
+quiwamu                          6            18              6            0.01
+tarao                           12           120              0            0.03
+tmsanrinsha                      6            24              0            0.01
+unc0                             8            44             36            0.02
+unknown                          3             3              3            0.00
+y2k                              4             8              0            0.00
+
+Below are the number of rows from each author that have survived and are still
+intact in the current revision:
+
+[1mAuthor                     Rows      Stability          Age       % in comments[0;0m
+1995eaton                 25223           16.4        210.1                7.20
+Christoph Hermann            74           30.6        236.3                0.00
+D Davis                       2            1.0         94.0                0.00
+David McFarland               4            3.5        184.9                0.00
+Devin Lehmacher               1           16.7         71.0                0.00
+Dylan Davis                  10            4.9         94.0                0.00
+Florian Bruhin                1            6.7        183.0                0.00
+Jake Eaton                  507            4.0         93.8                5.13
+Jayphen                       3           12.5        211.1                0.00
+Josef Eisl                    6           13.3        132.1               16.67
+Lauri Niskanen                1           20.0        155.6                0.00
+Nikos Filippakis             18           11.6        126.9                0.00
+Patryk Stępień                1           10.0        161.6                0.00
+Ross Hadden                   3            8.3         93.0                0.00
+Sylvain Soliman               4            5.7        231.6                0.00
+T.S. Foster                  23           16.4        211.7                0.00
+brook hong                    1            2.2        176.9                0.00
+gogu                         19           14.6        140.7                0.00
+h43z                          1           20.0        107.4                0.00
+hbt                        2939           17.8         91.7               32.53
+itchyny                      62           10.0        229.0                0.00
+mrmr1993                     12           23.1        206.6                0.00
+paulhybryant                  2           25.0        206.3                0.00
+tarao                        17           14.2         88.1                0.00
+tmsanrinsha                   4           16.7         56.4               50.00
+unc0                          2            4.5        201.6                0.00
+y2k                           2           25.0        198.0                0.00
+
+The following history timeline has been gathered from the repository:
+
+[1mAuthor                  2014W11    2014W12    2014W13    2014W14    2014W15 [0;0m
+1995eaton              ++++++++   ---+++++   ------++   ----++++  --+++++++ 
+[1mModified Rows:      [0;0m      13434       1769        161        708        141 
+
+[1mAuthor                  2014W16    2014W17    2014W18    2014W19    2014W20 [0;0m
+1995eaton             --+++++++   ---+++++   ---+++++   ---+++++   --++++++ 
+Christoph Hermann                                              .            
+Jake Eaton                                                     .            
+[1mModified Rows:      [0;0m        836       1995       1948       6259       3038 
+
+[1mAuthor                  2014W21    2014W22    2014W23    2014W24    2014W25 [0;0m
+1995eaton              ---+++++  ----+++++   ---+++++  ---++++++   ----++++ 
+Jake Eaton                                                     .            
+Sylvain Soliman                                     .                       
+itchyny                                                                   . 
+[1mModified Rows:      [0;0m       3076       1826       1994       2521      20049 
+
+[1mAuthor                  2014W26    2014W27    2014W28    2014W29    2014W30 [0;0m
+1995eaton             ----+++++   ----++++   --++++++   ---+++++   ---+++++ 
+itchyny                       .                                             
+[1mModified Rows:      [0;0m      10323       1209        489        135         48 
+
+[1mAuthor                  2014W31    2014W34    2014W35    2014W36    2014W37 [0;0m
+1995eaton             +++++++++   --++++++   ---+++++   ----++++   -+++++++ 
+[1mModified Rows:      [0;0m      15270        534       2253       4734       2943 
+
+[1mAuthor                  2014W39    2014W41    2014W42    2014W43    2014W44 [0;0m
+1995eaton              ----++++   ----++++  --------+   ----++++   ---+++++ 
+Asa Jay                                             .                       
+Jayphen                                                                   + 
+T.S. Foster                                                    .            
+unknown                                  .                                  
+[1mModified Rows:      [0;0m       1989      10845      21153       7189        216 
+
+[1mAuthor                  2014W45    2014W47    2014W48    2014W49    2014W50 [0;0m
+1995eaton              ++++++++   -+++++++   -------+   ---+++++   -+++++++ 
+Marcus                        .                                             
+mrmr1993                                            .                       
+paulhybryant                                                   .            
+[1mModified Rows:      [0;0m      31500         48      31348       2636        292 
+
+[1mAuthor                  2014W51    2014W52    2015W01    2015W03    2015W04 [0;0m
+1995eaton              ---+++++   ---+++++   ---+++++   --++++++   --++++++ 
+unc0                                                .                       
+[1mModified Rows:      [0;0m       3592       1168        928        216        264 
+
+[1mAuthor                  2015W05    2015W06    2015W07    2015W08    2015W09 [0;0m
+1995eaton             ---++++++  --+++++++   --++++++   --++++++  ----+++++ 
+y2k                           .                                             
+[1mModified Rows:      [0;0m       2936       3644       1936        564        675 
+
+[1mAuthor                  2015W10    2015W12    2015W14    2015W15    2015W16 [0;0m
+1995eaton              ++++++++  +++++++++  ------+++  --+++++++   ----++++ 
+[1mModified Rows:      [0;0m        570         40         15        155         10 
+
+[1mAuthor                  2015W18    2015W19    2015W20    2015W22    2015W24 [0;0m
+1995eaton             ----+++++   ---+++++   ---+++++   ----++++   -+++++++ 
+David McFarland               .                                             
+Florian Bruhin                                      .                       
+[1mModified Rows:      [0;0m       1310       3080       2180         10        565 
+
+[1mAuthor                  2015W26    2015W28    2015W32    2015W33    2015W34 [0;0m
+1995eaton                                   ---++++++   ---+++++   ----++++ 
+Jake Eaton                        ------++                                  
+brook hong             --++++++                                             
+[1mModified Rows:      [0;0m         60         65        405       2730         65 
+
+[1mAuthor                  2015W36    2015W38    2015W39    2015W41    2015W44 [0;0m
+1995eaton              ----++++  ----+++++  --+++++++              ----++++ 
+Patryk Stępień                                         ---++++++            
+[1mModified Rows:      [0;0m         85       1230        110         15       6030 
+
+[1mAuthor                  2015W46    2015W47    2015W48    2015W49    2015W50 [0;0m
+1995eaton              ---+++++              ----++++   --++++++  +++++++++ 
+Lauri Niskanen                   ------+++                                  
+[1mModified Rows:      [0;0m        110         15         10        200        530 
+
+[1mAuthor                  2015W51    2016W05    2016W07    2016W09    2016W10 [0;0m
+1995eaton              ----++++  ----+++++  -++++++++   ++++++++            
+gogu                                                               ----++++ 
+[1mModified Rows:      [0;0m         20       2745         45        575        260 
+
+[1mAuthor                  2016W13    2016W14    2016W15    2016W16    2016W18 [0;0m
+1995eaton             ---++++++  +++++++++   ----++++   ---+++++   ----++++ 
+Josef Eisl                                                              -++ 
+[1mModified Rows:      [0;0m         45         40        270        525        225 
+
+[1mAuthor                  2016W20    2016W21    2016W23    2016W25    2016W27 [0;0m
+1995eaton             -++++++++   ----++++        --+   ---+++++   ++++++++ 
+Nikos Filippakis                             ---+++++                       
+[1mModified Rows:      [0;0m       1910       3820        365       1285        130 
+
+[1mAuthor                  2016W28    2016W30    2016W43    2016W45    2016W52 [0;0m
+1995eaton                        ---++++++                                  
+h43z                                         ----++++                       
+hbt                                                               -++++++++ 
+pcworld                -------+                                             
+quiwamu                                                 --++++++            
+[1mModified Rows:      [0;0m         25       2110         10         24       1170 
+
+[1mAuthor                  2017W01    2017W02    2017W03    2017W04    2017W05 [0;0m
+Dylan Davis                                            +++++++++            
+Ross Hadden                                                               . 
+hbt                   +++++++++   ++++++++  +++++++++              ++++++++ 
+[1mModified Rows:      [0;0m       9910        918         30        204        510 
+
+[1mAuthor                  2017W07    2017W08    2017W09    2017W10    2017W11 [0;0m
+1995eaton                                           .                       
+Jake Eaton                    +   ---+++++   ----++++          .   ----++++ 
+hbt                    --++++++                     .                       
+tarao                                                  +++++++++            
+[1mModified Rows:      [0;0m        264       4674      25164        132         12 
+
+[1mAuthor                  2017W12    2017W13    2017W19    2017W20    2017W23 [0;0m
+1995eaton                                                          ----++++ 
+D Davis                                                +++++++++            
+Jake Eaton             -+++++++         -+                                  
+hbt                               ------++  -++++++++                       
+[1mModified Rows:      [0;0m         36        162        252        204       4998 
+
+[1mAuthor                  2017W24    2017W25    2017W26    2017W27    2017W29 [0;0m
+1995eaton             ----+++++  ----+++++   --++++++             +++++++++ 
+Devin Lehmacher                                        --------+            
+hbt                          ++          .                                  
+[1mModified Rows:      [0;0m       1926        288       1194         54         12 
+
+[1mAuthor                  2017W34    2017W35    2017W37    2017W38    2017W41 [0;0m
+1995eaton                                .                         ++++++++ 
+Jake Eaton                                             +++++++++            
+hbt                    ++++++++   ++++++++   ----++++                       
+tmsanrinsha                                                              ++ 
+[1mModified Rows:      [0;0m        630        924         12          6        108 
+
+[1mAuthor                  2017W50    2018W01    2018W06    2018W44    2018W45 [0;0m
+1995eaton              ------++                                             
+hbt                               ----++++   ++++++++                       
+metasong                                               ----+++++  ----+++++ 
+[1mModified Rows:      [0;0m        114         12        576      10686       9426 
+
+[1mAuthor                  2018W46 [0;0m
+metasong              --+++++++ 
+[1mModified Rows:      [0;0m      14688 
+
+The following files are suspiciously big (in order of severity):
+pages/codemirror/codemirror.js (5680 estimated lines of code)
+pages/codemirror/vim.js (3598 estimated lines of code)
+cvimrc_parser/parser.js (2918 estimated lines of code)
+content_scripts/cvimrc_parser.js (2918 estimated lines of code)
+content_scripts/mappings.js (1407 estimated lines of code)
+content_scripts/command.js (1283 estimated lines of code)
+vendor/underscore.js (1248 estimated lines of code)
+content_scripts/keys.js (920 estimated lines of code)
+background_scripts/actions.js (869 estimated lines of code)
+pages/codemirror/css.js (688 estimated lines of code)
+content_scripts/complete.js (519 estimated lines of code)
+
+The following files have an elevated cyclomatic complexity (in order of severity):
+pages/codemirror/codemirror.js (3452 in cyclomatic complexity)
+cvimrc_parser/parser.js (1550 in cyclomatic complexity)
+content_scripts/cvimrc_parser.js (1550 in cyclomatic complexity)
+pages/codemirror/vim.js (1396 in cyclomatic complexity)
+vendor/underscore.js (601 in cyclomatic complexity)
+content_scripts/command.js (463 in cyclomatic complexity)
+pages/codemirror/css.js (403 in cyclomatic complexity)
+content_scripts/keys.js (364 in cyclomatic complexity)
+content_scripts/mappings.js (296 in cyclomatic complexity)
+content_scripts/utils.js (238 in cyclomatic complexity)
+background_scripts/actions.js (205 in cyclomatic complexity)
+content_scripts/messenger.js (135 in cyclomatic complexity)
+content_scripts/scroll.js (125 in cyclomatic complexity)
+content_scripts/find.js (96 in cyclomatic complexity)
+content_scripts/visual.js (89 in cyclomatic complexity)
+content_scripts/dom.js (86 in cyclomatic complexity)
+content_scripts/complete.js (84 in cyclomatic complexity)
+content_scripts/bookmarks.js (76 in cyclomatic complexity)
+background_scripts/main.js (76 in cyclomatic complexity)
+content_scripts/search.js (56 in cyclomatic complexity)
+content_scripts/hints.js (55 in cyclomatic complexity)
+
+The following files have an elevated cyclomatic complexity density (in order of severity):
+vendor/linkify-jquery.min.js (6.000 in cyclomatic complexity density)
+vendor/linkify-element.min.js (6.000 in cyclomatic complexity density)
+vendor/underscore-min.js (5.000 in cyclomatic complexity density)
+vendor/jquery.js (4.667 in cyclomatic complexity density)
+vendor/linkify.min.js (3.000 in cyclomatic complexity density)
+
+The following responsibilities, by author, were found in the current revision of
+the repository (comments are excluded from the line count, if possible):
+
+1995eaton is mostly responsible for:
+  5680 pages/codemirror/codemirror.js
+  3598 pages/codemirror/vim.js
+  2750 cvimrc_parser/parser.js
+  2750 content_scripts/cvimrc_parser.js
+  1248 content_scripts/command.js
+  1134 content_scripts/mappings.js
+   863 content_scripts/keys.js
+   689 pages/codemirror/css.js
+   496 background_scripts/actions.js
+   488 content_scripts/complete.js
+
+Christoph Hermann is mostly responsible for:
+    74 background_scripts/actions.js
+
+D Davis is mostly responsible for:
+     2 content_scripts/mappings.js
+
+David McFarland is mostly responsible for:
+     4 content_scripts/command.js
+
+Devin Lehmacher is mostly responsible for:
+     1 content_scripts/scroll.js
+
+Dylan Davis is mostly responsible for:
+    10 content_scripts/mappings.js
+
+Florian Bruhin is mostly responsible for:
+     1 content_scripts/visual.js
+
+Jake Eaton is mostly responsible for:
+   168 cvimrc_parser/parser.js
+   168 content_scripts/cvimrc_parser.js
+    46 content_scripts/utils.js
+    28 content_scripts/complete.js
+    16 background_scripts/main.js
+    14 content_scripts/keys.js
+    14 content_scripts/command.js
+     5 content_scripts/mappings.js
+     4 background_scripts/bookmarks.js
+     3 content_scripts/search.js
+
+Jayphen is mostly responsible for:
+     3 content_scripts/complete.js
+
+Josef Eisl is mostly responsible for:
+     5 content_scripts/command.js
+
+Lauri Niskanen is mostly responsible for:
+     1 content_scripts/command.js
+
+Nikos Filippakis is mostly responsible for:
+    18 background_scripts/actions.js
+
+Patryk Stępień is mostly responsible for:
+     1 scripts/create_pages.js
+
+Ross Hadden is mostly responsible for:
+     3 content_scripts/mappings.js
+
+Sylvain Soliman is mostly responsible for:
+     4 background_scripts/options.js
+
+T.S. Foster is mostly responsible for:
+    16 background_scripts/actions.js
+     7 content_scripts/command.js
+
+brook hong is mostly responsible for:
+     1 content_scripts/mappings.js
+
+gogu is mostly responsible for:
+     6 content_scripts/mappings.js
+     4 content_scripts/cursor.js
+     3 content_scripts/scroll.js
+     2 pages/options.js
+     2 content_scripts/hints.js
+     1 content_scripts/messenger.js
+     1 content_scripts/find.js
+
+h43z is mostly responsible for:
+     1 background_scripts/actions.js
+
+hbt is mostly responsible for:
+  1248 vendor/underscore.js
+   252 background_scripts/actions.js
+   229 content_scripts/mappings.js
+    37 background_scripts/main.js
+    35 content_scripts/hints.js
+    31 content_scripts/utils.js
+    29 content_scripts/keys.js
+    29 background_scripts/extension-reloader.js
+    24 content_scripts/messenger.js
+    22 cvim_server.py
+
+itchyny is mostly responsible for:
+    30 background_scripts/bookmarks.js
+    11 background_scripts/clipboard.js
+     6 background_scripts/sites.js
+     6 background_scripts/history.js
+     4 background_scripts/links.js
+     3 background_scripts/files.js
+     1 content_scripts/frames.js
+     1 background_scripts/main.js
+
+mrmr1993 is mostly responsible for:
+    12 content_scripts/keys.js
+
+paulhybryant is mostly responsible for:
+     2 pages/options.js
+
+tarao is mostly responsible for:
+    17 content_scripts/mappings.js
+
+tmsanrinsha is mostly responsible for:
+     2 content_scripts/keys.js
+
+unc0 is mostly responsible for:
+     2 content_scripts/utils.js
+
+y2k is mostly responsible for:
+     2 content_scripts/command.js
+
+The extensions below were found in the repository history (extensions used
+during statistical analysis are marked):
+* adoc bak css html [[1mjs[0;0m] json lock map md mjs peg pegjs [[1mpy[0;0m] sh txt vim 

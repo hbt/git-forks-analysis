@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GitStats - mouseless</title>
+<meta charset='utf-8'>
+<link href='../assets/bootstrap/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<style>
+body { padding-top: 60px; }
+</style>
+<link href='../assets/bootstrap/css/bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
+<script src='../assets/jquery.min.js' type='text/javascript'></script>
+<script src='../assets/bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../assets/highstock.js' type='text/javascript'></script>
+<script src='../assets/exporting.js' type='text/javascript'></script>
+<script src='../assets/export-csv.js' type='text/javascript'></script>
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+<div class='navbar-inner'>
+<div class='container'>
+<a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</a>
+<a class='brand' href='../index.html'>GitStats - mouseless</a>
+<div class='nav-collapse collapse'>
+<ul class='nav'>
+<li class=''>
+<a href='../general.html'>General</a>
+</li>
+<li class=''>
+<a href='../activity/by_date.html'>Activity</a>
+</li>
+<li class='active'>
+<a href='best_authors.html'>Authors</a>
+</li>
+<li class=''>
+<a href='../files/by_date.html'>Files</a>
+</li>
+<li class=''>
+<a href='../lines/by_date.html'>Lines</a>
+</li>
+<li class=''>
+<a href='../comments/by_date.html'>Comments</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='tabbable tabs-left'>
+<ul class='nav nav-tabs'>
+<li class='active'>
+<a href='best_authors.html'>Best authors</a>
+</li>
+<li class=''>
+<a href='commits_sum_by_author_by_date.html'>Commits sum by author by date</a>
+</li>
+<li class=''>
+<a href='changed_lines_by_author_by_date.html'>Changed lines by author by date</a>
+</li>
+<li class=''>
+<a href='insertions_by_author_by_date.html'>Lines added by author by date</a>
+</li>
+<li class=''>
+<a href='deletions_by_author_by_date.html'>Lines deleted by author by date</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active'>
+<div class='page-header'>
+<h1 class='pagination-centered'>Best authors</h1>
+</div>
+<table class='table table-bordered table-condensed table-hover'>
+<tr>
+<th>#</th>
+<th>Author</th>
+<th>Commits</th>
+<th>Lines added</th>
+<th>Lines deleted</th>
+<th>First commit</th>
+<th>Last commit</th>
+<th></th>
+</tr>
+<tr>
+<th>1</th>
+<th>1995eaton &lt;1995eaton@gmail.com&gt;</th>
+<td>972</td>
+<td>83517</td>
+<td>53147</td>
+<td>March 12, 2014 15:46</td>
+<td>December 13, 2017 04:32</td>
+<td>
+<a class='btn' href='1995eaton/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='1995eaton/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>2</th>
+<th>hbt &lt;hassenbentanfous@gmail.com&gt;</th>
+<td>214</td>
+<td>19907</td>
+<td>5248</td>
+<td>December 30, 2016 15:42</td>
+<td>February 09, 2018 13:38</td>
+<td>
+<a class='btn' href='hbt/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='hbt/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>3</th>
+<th>metasong &lt;metaseed@gmail.com&gt;</th>
+<td>29</td>
+<td>10313</td>
+<td>8564</td>
+<td>October 30, 2018 16:55</td>
+<td>November 14, 2018 17:28</td>
+<td>
+<a class='btn' href='metasong/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='metasong/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>4</th>
+<th>itchyny &lt;neknekneknek.t@gmail.com&gt;</th>
+<td>15</td>
+<td>231</td>
+<td>256</td>
+<td>June 17, 2014 18:39</td>
+<td>June 26, 2014 07:24</td>
+<td>
+<a class='btn' href='itchyny/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='itchyny/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>5</th>
+<th>Jake Eaton &lt;Jake@Jakes-iMac.local&gt;</th>
+<td>11</td>
+<td>731</td>
+<td>586</td>
+<td>June 10, 2014 13:20</td>
+<td>February 28, 2017 05:01</td>
+<td>
+<a class='btn' href='jake_eaton/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='jake_eaton/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>6</th>
+<th>T.S. Foster &lt;hi@tsf.io&gt;</th>
+<td>4</td>
+<td>36</td>
+<td>10</td>
+<td>October 22, 2014 15:01</td>
+<td>October 24, 2014 12:42</td>
+<td>
+<a class='btn' href='t.s._foster/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='t.s._foster/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>7</th>
+<th>Hendrik Purmann &lt;h.purmann@googlemail.com&gt;</th>
+<td>4</td>
+<td>27</td>
+<td>2</td>
+<td>November 30, 2014 17:34</td>
+<td>February 22, 2015 19:51</td>
+<td>
+<a class='btn' href='hendrik_purmann/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='hendrik_purmann/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>8</th>
+<th>tarao &lt;tarao.gnn@gmail.com&gt;</th>
+<td>3</td>
+<td>26</td>
+<td>0</td>
+<td>March 07, 2017 16:28</td>
+<td>March 07, 2017 20:39</td>
+<td>
+<a class='btn' href='tarao/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='tarao/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>9</th>
+<th>Trevor Joynson (trevorj) &lt;github@skywww.net&gt;</th>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>January 14, 2017 06:34</td>
+<td>March 21, 2017 13:06</td>
+<td>
+<a class='btn' href='trevor_joynson_(trevorj)/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='trevor_joynson_(trevorj)/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>10</th>
+<th>Florian Bruhin &lt;git@the-compiler.org&gt;</th>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+<td>May 13, 2015 14:25</td>
+<td>May 13, 2015 14:25</td>
+<td>
+<a class='btn' href='florian_bruhin/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='florian_bruhin/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>11</th>
+<th>paulhybryant &lt;paulhybryant@gmail.com&gt;</th>
+<td>2</td>
+<td>4</td>
+<td>2</td>
+<td>December 01, 2014 10:15</td>
+<td>December 11, 2014 11:26</td>
+<td>
+<a class='btn' href='paulhybryant/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='paulhybryant/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>12</th>
+<th>Christoph Hermann &lt;schtoeffel@gmail.com&gt;</th>
+<td>2</td>
+<td>245</td>
+<td>141</td>
+<td>May 04, 2014 12:09</td>
+<td>May 05, 2014 10:41</td>
+<td>
+<a class='btn' href='christoph_hermann/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='christoph_hermann/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>13</th>
+<th>unc0 &lt;unc0@users.noreply.github.com&gt;</th>
+<td>2</td>
+<td>21</td>
+<td>19</td>
+<td>January 03, 2015 10:10</td>
+<td>January 03, 2015 10:12</td>
+<td>
+<a class='btn' href='unc0/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='unc0/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>14</th>
+<th>Jake Eaton &lt;jake@Jakes-iMac.local&gt;</th>
+<td>2</td>
+<td>9</td>
+<td>1</td>
+<td>September 20, 2017 08:32</td>
+<td>September 20, 2017 09:19</td>
+<td>
+<a class='btn' href='jake_eaton/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='jake_eaton/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>15</th>
+<th>Sylvain Soliman &lt;Sylvain.Soliman+git@gmail.com&gt;</th>
+<td>2</td>
+<td>50</td>
+<td>30</td>
+<td>June 07, 2014 21:08</td>
+<td>June 07, 2014 21:09</td>
+<td>
+<a class='btn' href='sylvain_soliman/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='sylvain_soliman/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>16</th>
+<th>Patryk Stępień &lt;patryk.stepien.0x58@gmail.com&gt;</th>
+<td>2</td>
+<td>4</td>
+<td>3</td>
+<td>October 06, 2015 00:28</td>
+<td>October 10, 2015 07:09</td>
+<td>
+<a class='btn' href='patryk_stępień/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='patryk_stępień/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>17</th>
+<th>Ross Hadden &lt;rosshadden@gmail.com&gt;</th>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>February 01, 2017 10:39</td>
+<td>February 01, 2017 10:39</td>
+<td>
+<a class='btn' href='ross_hadden/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='ross_hadden/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>18</th>
+<th>Linus Pettersson &lt;linus.pettersson@gmail.com&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>December 09, 2014 15:53</td>
+<td>December 09, 2014 15:53</td>
+<td>
+<a class='btn' href='linus_pettersson/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='linus_pettersson/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>19</th>
+<th>Marcus &lt;marcus.ramberg@usit.uio.no&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>November 07, 2014 18:30</td>
+<td>November 07, 2014 18:30</td>
+<td>
+<a class='btn' href='marcus/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='marcus/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>20</th>
+<th>Nikos Filippakis &lt;nikolaos.filippakis@cern.ch&gt;</th>
+<td>1</td>
+<td>47</td>
+<td>35</td>
+<td>June 09, 2016 11:12</td>
+<td>June 09, 2016 11:12</td>
+<td>
+<a class='btn' href='nikos_filippakis/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='nikos_filippakis/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>21</th>
+<th>Josef Eisl &lt;zapster@zapster.cc&gt;</th>
+<td>1</td>
+<td>9</td>
+<td>5</td>
+<td>May 03, 2016 15:48</td>
+<td>May 03, 2016 15:48</td>
+<td>
+<a class='btn' href='josef_eisl/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='josef_eisl/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>22</th>
+<th>Rex Kerr &lt;rexkerr@gmail.com&gt;</th>
+<td>1</td>
+<td>1622</td>
+<td>1</td>
+<td>September 19, 2018 14:06</td>
+<td>September 19, 2018 14:06</td>
+<td>
+<a class='btn' href='rex_kerr/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='rex_kerr/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>23</th>
+<th>Lauri Niskanen &lt;ape@ape3000.com&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>November 21, 2015 11:34</td>
+<td>November 21, 2015 11:34</td>
+<td>
+<a class='btn' href='lauri_niskanen/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='lauri_niskanen/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>24</th>
+<th>SONG Jianzhong &lt;jsong12@slb.com&gt;</th>
+<td>1</td>
+<td>118</td>
+<td>110</td>
+<td>October 30, 2018 15:56</td>
+<td>October 30, 2018 15:56</td>
+<td>
+<a class='btn' href='song_jianzhong/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='song_jianzhong/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>25</th>
+<th>Jayphen &lt;jayphen@gmail.com&gt;</th>
+<td>1</td>
+<td>6</td>
+<td>0</td>
+<td>October 29, 2014 10:15</td>
+<td>October 29, 2014 10:15</td>
+<td>
+<a class='btn' href='jayphen/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='jayphen/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>26</th>
+<th>Jake Eaton &lt;Jake@jakes-mac-pro.attlocal.net&gt;</th>
+<td>1</td>
+<td>4</td>
+<td>9</td>
+<td>July 06, 2015 21:07</td>
+<td>July 06, 2015 21:07</td>
+<td>
+<a class='btn' href='jake_eaton/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='jake_eaton/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>27</th>
+<th>zeroyonichihachi &lt;tkfm.yamaguchi@gmail.com&gt;</th>
+<td>1</td>
+<td>14</td>
+<td>14</td>
+<td>April 12, 2016 19:08</td>
+<td>April 12, 2016 19:08</td>
+<td>
+<a class='btn' href='zeroyonichihachi/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='zeroyonichihachi/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>28</th>
+<th>brook hong &lt;hzgmaxwell@hotmail.com&gt;</th>
+<td>1</td>
+<td>9</td>
+<td>3</td>
+<td>June 25, 2015 18:00</td>
+<td>June 25, 2015 18:00</td>
+<td>
+<a class='btn' href='brook_hong/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='brook_hong/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>29</th>
+<th>gogu &lt;gogu9909@gmail.com&gt;</th>
+<td>1</td>
+<td>26</td>
+<td>26</td>
+<td>March 04, 2016 14:45</td>
+<td>March 04, 2016 14:45</td>
+<td>
+<a class='btn' href='gogu/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='gogu/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>30</th>
+<th>h43z &lt;h43zet@gmail.com&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>October 24, 2016 00:06</td>
+<td>October 24, 2016 00:06</td>
+<td>
+<a class='btn' href='h43z/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='h43z/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>31</th>
+<th>y2k &lt;git@y2kbugger.com&gt;</th>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>January 27, 2015 19:50</td>
+<td>January 27, 2015 19:50</td>
+<td>
+<a class='btn' href='y2k/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='y2k/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>32</th>
+<th>Devin Lehmacher &lt;lehmacdj@gmail.com&gt;</th>
+<td>1</td>
+<td>2</td>
+<td>9</td>
+<td>July 05, 2017 12:34</td>
+<td>July 05, 2017 12:34</td>
+<td>
+<a class='btn' href='devin_lehmacher/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='devin_lehmacher/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>33</th>
+<th>David McFarland &lt;corngood@gmail.com&gt;</th>
+<td>1</td>
+<td>23</td>
+<td>9</td>
+<td>April 29, 2015 22:02</td>
+<td>April 29, 2015 22:02</td>
+<td>
+<a class='btn' href='david_mc_farland/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='david_mc_farland/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>34</th>
+<th>mrmr1993 &lt;mr_1993@hotmail.co.uk&gt;</th>
+<td>1</td>
+<td>13</td>
+<td>13</td>
+<td>November 29, 2014 21:35</td>
+<td>November 29, 2014 21:35</td>
+<td>
+<a class='btn' href='mrmr1993/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='mrmr1993/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>35</th>
+<th>nkgm &lt;self@nkgm.io&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>October 06, 2016 09:32</td>
+<td>October 06, 2016 09:32</td>
+<td>
+<a class='btn' href='nkgm/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='nkgm/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>36</th>
+<th>D Davis &lt;dhda@atapogee.com&gt;</th>
+<td>1</td>
+<td>34</td>
+<td>0</td>
+<td>January 24, 2017 16:00</td>
+<td>January 24, 2017 16:00</td>
+<td>
+<a class='btn' href='d_davis/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='d_davis/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>37</th>
+<th>pcworld &lt;0188801@gmail.com&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>4</td>
+<td>July 11, 2016 18:25</td>
+<td>July 11, 2016 18:25</td>
+<td>
+<a class='btn' href='pcworld/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='pcworld/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>38</th>
+<th>quiwamu &lt;quiwamu@gmail.com&gt;</th>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>November 11, 2016 17:35</td>
+<td>November 11, 2016 17:35</td>
+<td>
+<a class='btn' href='quiwamu/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='quiwamu/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>39</th>
+<th>Asa Jay &lt;hifreeo@gmail.com&gt;</th>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>October 18, 2014 17:00</td>
+<td>October 18, 2014 17:00</td>
+<td>
+<a class='btn' href='asa_jay/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='asa_jay/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>40</th>
+<th>tmsanrinsha &lt;sanrinsha.tm@gmail.com&gt;</th>
+<td>1</td>
+<td>4</td>
+<td>0</td>
+<td>October 15, 2017 21:55</td>
+<td>October 15, 2017 21:55</td>
+<td>
+<a class='btn' href='tmsanrinsha/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='tmsanrinsha/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>41</th>
+<th>Andrew Nguyen &lt;andrewthinhnguyen@gmail.com&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>August 09, 2015 22:22</td>
+<td>August 09, 2015 22:22</td>
+<td>
+<a class='btn' href='andrew_nguyen/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='andrew_nguyen/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>42</th>
+<th>unknown &lt;unknown&gt;</th>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>October 12, 2014 22:16</td>
+<td>October 12, 2014 22:16</td>
+<td>
+<a class='btn' href='unknown/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='unknown/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>43</th>
+<th>Dylan Davis &lt;dhda@umich.edu&gt;</th>
+<td>1</td>
+<td>34</td>
+<td>0</td>
+<td>January 24, 2017 16:00</td>
+<td>January 24, 2017 16:00</td>
+<td>
+<a class='btn' href='dylan_davis/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='dylan_davis/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+<tr>
+<th>44</th>
+<th>Jake Eaton &lt;1995eaton@gmail.com&gt;</th>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td>
+<a class='btn' href='jake_eaton/activity/by_date.html'>Activity</a>
+</td>
+<td>
+<a class='btn' href='jake_eaton/author_details/commits_by_date.html'>Details</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

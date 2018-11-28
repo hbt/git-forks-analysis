@@ -16,14 +16,11 @@ Analyze forks network to find interesting forks, commits, file changes.
 * View other `Tips` below on how to search across the forks network using Git commands
 
 
-[//]: # (// TODO(hbt) ENHANCE simplify Config)
 
 
-// TODO(hbt) NEXT add instructions 
 
 ## How to install it?
 
-// TODO(hbt) NEXT add submodules init  -- test from scratch
 ```bash
 
 git clone https://github.com/hbt/git-forks-analysis
@@ -32,8 +29,6 @@ docker-compose pull hbtlabs/git-forks-analysis
 ```
 
 ## How to use it?
-
-// TODO(hbt) ENHANCE check code highlight 
 
 To generate HTML visualization of forks
 
@@ -51,12 +46,6 @@ cd bin
 
 ```
 
-view generated html files  in `out` directory for:
-
-- gitinspector in /out/repo.html e.g /out/mouseless.html
-- quick_stats in /out/repo/quick_stats/index.html e.g /opt/mouseless/quick_stats/index.html
-
-
 Calling the `gitinspector` directly via CLI
 
 ```bash
@@ -67,6 +56,74 @@ Calling the `gitinspector` directly via CLI
 
 ```
 
+## What does it look like?
+
+* gitinspector of mouseless [mouseless HTML](/example/mouseless/mouseless.html)
+* gitinspector CLI output [mouseless CLI](/example/mouseless/mouseless.txt)
+* quick_stats of mouseless [mouseless quick stats](/example/mouseless/git_stats/index.html)
+
+## How to find interesting forks?
+
+* Forks with stars / watchers -- use https://techgaun.github.io/active-forks/index.html
+* Looks for commits count, insertions and deletion counts
 
 
+## How to search for commits per file across all forks and branches?
 
+```bash
+
+cd out/mouseless
+git log --all background_scripts/extension-reloader.js
+
+# include diffs
+
+git log -p --all background_scripts/extension-reloader.js
+
+
+```
+
+## How to search for changes in a function across all forks and branches?
+
+```bash
+
+# look for contributions to a specific function across all forks
+git log --all -p -L ":getCenters":lib/model/PersonInfo.php --ignore-all-space --ignore-space-change --ignore-space-at-eol --ignore-blank-lines
+
+
+# also accepts line numbers range
+git log --all -p -L 13,20:lib/model/PersonInfo.php --ignore-all-space --ignore-space-change --ignore-space-at-eol --ignore-blank-lines
+
+#modify ~/.gitattributes to add language support
+#*.php diff=php
+#*.js diff=node
+
+#normalize the repo in case of ^M
+#Note: this might fuck up some file formats (e.g binary, images etc.)
+https://superuser.com/questions/293941/rewrite-git-history-to-replace-all-crlf-to-lf
+
+**Note: perform all operations on tmpfs. Much faster**
+#normalize the whole repo and its history
+# specific file  (much faster) -- few minutes
+git filter-branch --tree-filter 'git ls-files lib/model/PersonInfo.php -z | xargs -0 fromdos' -- --all
+
+#whole repo but takes longer
+git filter-branch --tree-filter 'git ls-files -z | xargs -0 fromdos' -- --all
+
+
+#Alternative if language is not properly supported is to use pickaxe
+git log --all -p -S"function createHints"  content_scripts/hints.js
+
+# for some languages, --function-context works well
+git log --all -p -ScreateHints --function-context content_scripts/hints.js
+
+
+```
+
+
+## Other git data mining tools worth a mention
+
+* [https://github.com/arzzen/git-quick-stats](https://github.com/arzzen/git-quick-stats)
+* [https://github.com/src-d/hercules](https://github.com/src-d/hercules)
+
+
+## Contribute: Get in touch if you have a git data mining tool recommendation
