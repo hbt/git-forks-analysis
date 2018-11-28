@@ -13,5 +13,4 @@ services:
         - ./out:/out
         # mount git files for cloning in read only mode
         - $HOME/.gitconfig:/root/.gitconfig:ro
-      # // TODO(hbt) NEXT add script to fix /root.ssh  - https://serverfault.com/questions/253313/ssh-returns-bad-owner-or-permissions-on-ssh-config
         - $HOME/.ssh:/root/.ssh2:ro

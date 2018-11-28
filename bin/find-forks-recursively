@@ -4,6 +4,7 @@ if [ ! -f /.dockerenv ]; then
     echo "Skipping. Not in docker container";
 fi
 
+# fix perms https://serverfault.com/questions/253313/ssh-returns-bad-owner-or-permissions-on-ssh-config
 rm -rf /root/.ssh
 cp -R /root/.ssh2 /root/.ssh
 chmod 600 /root/.ssh/config
