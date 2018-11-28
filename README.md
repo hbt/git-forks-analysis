@@ -32,7 +32,7 @@ docker-compose pull hbtlabs/git-forks-analysis
 
 To generate HTML visualization of forks
 
-```
+```bash
 
 cd bin
 
@@ -58,9 +58,9 @@ Calling the `gitinspector` directly via CLI
 
 ## What does it look like?
 
-* gitinspector of mouseless [mouseless HTML](/example/mouseless/mouseless.html)
+* gitinspector of mouseless [mouseless HTML](http://htmlpreview.github.io/?https://github.com/hbt/git-forks-analysis/blob/master/example/mouseless/mouseless.html)
 * gitinspector CLI output [mouseless CLI](/example/mouseless/mouseless.txt)
-* quick_stats of mouseless [mouseless quick stats](/example/mouseless/git_stats/index.html)
+* quick_stats of mouseless [mouseless quick stats](http://htmlpreview.github.io/?https://github.com/hbt/git-forks-analysis/blob/master/example/mouseless/git_stats/general.html)
 
 ## How to find interesting forks?
 
@@ -76,7 +76,6 @@ cd out/mouseless
 git log --all background_scripts/extension-reloader.js
 
 # include diffs
-
 git log -p --all background_scripts/extension-reloader.js
 
 
@@ -98,10 +97,10 @@ git log --all -p -L 13,20:lib/model/PersonInfo.php --ignore-all-space --ignore-s
 #*.js diff=node
 
 #normalize the repo in case of ^M
-#Note: this might fuck up some file formats (e.g binary, images etc.)
-https://superuser.com/questions/293941/rewrite-git-history-to-replace-all-crlf-to-lf
+#Note: this might corrupt some file formats (e.g binary, images etc.)
+#https://superuser.com/questions/293941/rewrite-git-history-to-replace-all-crlf-to-lf
 
-**Note: perform all operations on tmpfs. Much faster**
+#**Note: perform all operations on tmpfs. Much faster**
 #normalize the whole repo and its history
 # specific file  (much faster) -- few minutes
 git filter-branch --tree-filter 'git ls-files lib/model/PersonInfo.php -z | xargs -0 fromdos' -- --all
