@@ -1,0 +1,6 @@
+[submodule "deps/gitinspector"]
+	path = deps/gitinspector
+	url = https://github.com/hbt/gitinspector
+[submodule "deps/git_stats"]
+	path = deps/git_stats
+	url = https://github.com/hbt/git_stats

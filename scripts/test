@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+
+#docker-compose -f $(dirname $0)/../docker-compose.yml run --rm  --workdir /out --entrypoint "/git-forks-analysis-src/scripts/analyze-forks.php" git-forks-analysis "$@"            
+docker-compose -f $(dirname $0)/../docker-compose.yml build 
+#docker-compose -f $(dirname $0)/../docker-compose.yml run --rm  --workdir / --entrypoint "/bin/bash -c 'python /gitinspector/gitinspector.py  /out/mouseless/'" git-forks-analysis 
+#docker-compose -f $(dirname $0)/../docker-compose.yml run --rm  --workdir / --entrypoint "/bin/bash -c 'cd /out && python /git-forks-analysis-src/deps/gitinspector/gitinspector.py --grading=true --format=html  /out/mouseless/ >  /out/mouseless.html'" git-forks-analysis 
+docker-compose -f $(dirname $0)/../docker-compose.yml run --rm  --workdir / --entrypoint "/bin/bash --login -c 'rvm use 2.1.3 && cd /out/mouseless && /git-forks-analysis-src/deps/git_stats/bin/git_stats generate'" git-forks-analysis 
+
+/home/hassen/workspace/git_stats/bin/git_stats
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker-compose -f $(dirname $0)/../docker-compose.yml run --rm  --workdir /out --entrypoint "/git-forks-analysis-src/deps/gitinspector/gitinspector.py" git-forks-analysis "$@"            
+

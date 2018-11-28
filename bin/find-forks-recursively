@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ ! -f /.dockerenv ]; then
+    echo "Skipping. Not in docker container";
+fi
+
+rm -rf /root/.ssh
+cp -R /root/.ssh2 /root/.ssh
+chmod 600 /root/.ssh/config
+chown -R root:root /root/.ssh
+
+params=$@
+bash -l -c "rvm use 2.1.3 && ruby --version && ruby /deps/github-backup/bin/github-backup $params" 
