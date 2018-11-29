@@ -30,6 +30,5 @@ RUN /bin/bash -l -c "rvm use 2.1.3 && cd /deps/git_stats && bundle"
 
 
 ENV PATH="/git-forks-analysis/bin:${PATH}"
-ADD . /git-forks-analysis
 ADD ./config/php.ini /etc/php/7.0/cli/php.ini
 

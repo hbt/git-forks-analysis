@@ -24,7 +24,7 @@ Analyze forks network to find interesting forks, commits, file changes.
 ```bash
 
 git clone https://github.com/hbt/git-forks-analysis
-docker-compose pull hbtlabs/git-forks-analysis
+docker-compose pull 
 
 ```
 
