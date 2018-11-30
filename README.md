@@ -118,11 +118,30 @@ git log --all -p -ScreateHints --function-context content_scripts/hints.js
 
 ```
 
+## How to search commits that have not been merged?
+
+```bash
+
+git log -p --all --not master --no-merges
+
+```
+
+## How to find most modified files in forks?
+
+```bash
+
+git log --all --pretty=format: --name-only --not master --no-merges | sort | uniq -c | sort -rg | head -10
+
+```
+
 
 ## Other git data mining tools worth a mention
 
-* [https://github.com/arzzen/git-quick-stats](https://github.com/arzzen/git-quick-stats)
+* [https://github.com/src-d/gitbase](https://github.com/src-d/gitbase) -- Turns Git Repository into an SQL database
 * [https://github.com/src-d/hercules](https://github.com/src-d/hercules)
+* [https://github.com/arzzen/git-quick-stats](https://github.com/arzzen/git-quick-stats) -- interactive tool
+* [https://github.com/src-d/vecino](https://github.com/src-d/vecino) -- Recommends similar repositories 
+* [https://github.com/src-d/msc](https://github.com/src-d/tmsc) -- Recommends topics per repo based on content
 
 
 ## Contribute: Get in touch if you have a git data mining tool recommendation
