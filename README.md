@@ -142,6 +142,8 @@ git log --all --pretty=format: --name-only --not master --no-merges | sort | uni
 * [https://github.com/arzzen/git-quick-stats](https://github.com/arzzen/git-quick-stats) -- interactive tool
 * [https://github.com/src-d/vecino](https://github.com/src-d/vecino) -- Recommends similar repositories 
 * [https://github.com/src-d/msc](https://github.com/src-d/tmsc) -- Recommends topics per repo based on content
+* [https://github.com/jgehring/pepper](https://github.com/jgehring/pepper) -- not tried
+* [https://github.com/brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) -- not tried but lots of stars
 
 
 ## Contribute: Get in touch if you have a git data mining tool recommendation
