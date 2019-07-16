@@ -1,0 +1,1 @@
+ignore private forks during fetch -- dont block. ignore stdin  e.g  ./analyze-forks nelenkov android-backup-extractor
