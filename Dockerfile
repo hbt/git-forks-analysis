@@ -25,9 +25,10 @@ RUN mkdir /deps && cd /deps && \
 
 RUN cd /deps/find_forks && pip install -r requirements-prod.txt
 
-RUN /bin/bash -l -c "rvm use 2.1.3 && gem install bundler --no-ri --no-rdoc && cd /deps/github-backup && bundle"
-RUN /bin/bash -l -c "rvm use 2.1.3 && cd /deps/git_stats && bundle"
 
+RUN /bin/bash -l -c "rvm use 2.1.3 && rvm rubygems 2.7.8 --force"
+RUN /bin/bash -l -c "rvm use 2.1.3 && gem install bundler -v 1.17.1 --no-ri --no-rdoc && cd /deps/github-backup && bundle"
+RUN /bin/bash -l -c "rvm use 2.1.3 && cd /deps/git_stats && bundle"
 
 ENV PATH="/git-forks-analysis/bin:${PATH}"
 ADD ./config/php.ini /etc/php/7.0/cli/php.ini
