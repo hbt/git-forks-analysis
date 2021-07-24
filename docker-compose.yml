@@ -1,13 +1,12 @@
 version: '3.4'
 
 
-#           // TODO(hbt) ENHANCE push img
-
 services: 
   git-forks-analysis:
     build:  
       context: . 
-    image: hbtlabs/git-forks-analysis
+      #    image: hbtlabs/git-forks-analysis:2
+    image: hbtlabs/git-forks-analysis:latest
     volumes:
         - .:/git-forks-analysis-src:ro
         - ./out:/out

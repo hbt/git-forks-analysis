@@ -137,6 +137,7 @@ git log --all --pretty=format: --name-only --not master --no-merges | sort | uni
 
 ## Other git data mining tools worth a mention
 
+* [https://github.com/askgitdev/askgit](https://github.com/askgitdev/askgit) -- Query git repositories with SQL.
 * [https://github.com/src-d/gitbase](https://github.com/src-d/gitbase) -- Turns Git Repository into an SQL database
 * [https://github.com/src-d/hercules](https://github.com/src-d/hercules)
 * [https://github.com/arzzen/git-quick-stats](https://github.com/arzzen/git-quick-stats) -- interactive tool
